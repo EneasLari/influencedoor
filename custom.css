@@ -11,12 +11,19 @@ body {
 padding-top:100px;
 }
 
+
 .container-dark{
     color: white;
     text-align: center;
 }
 
-html { font-size: 1rem; }
+.container-brown{
+    color: white;
+    background-color:rgb(27, 25, 26) ;
+    text-align: center;
+}
+
+/* html { font-size: 1rem; }
 
 @media (min-width: 576px) {
     html { font-size:1.2rem; }
@@ -29,4 +36,4 @@ html { font-size: 1rem; }
 }
 @media (min-width: 1200px) {
     html { font-size:  2rem; }
-}
+} */
