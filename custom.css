@@ -12,6 +12,14 @@ padding-top:100px;
 }
 
 
+.container-empty-30{
+    padding-top:30px;
+}
+
+.container-empty-20{
+    padding-top:20px;
+}
+
 .container-dark{
     color: white;
     text-align: center;
