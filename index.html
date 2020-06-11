@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>TwitchList</title>
+  <title>TopInfluencers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
   <script src="https://gumroad.com/js/gumroad.js"></script>
   <link rel="icon" href="digital-marketing.svg">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 <header>  
   <div class="container-fluid">
     <nav class="navbar navbar-expand-sm  navbar-dark fixed-top navbar-custom">
@@ -24,14 +24,14 @@
       <div class="container">
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li> -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#features">Features</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#pricing">Pricing</a>
                 </li>
             </ul>
         </div>
@@ -42,15 +42,16 @@
   <div class="container container-empty"></div>
   <div class="container container-dark">
     <h1>Find the right audience</h1>
-    <p class="lead">Get the best instagram and tiktok influencers for your campaigns</p>
-    <a class="btn btn-outline-light btn-lg" href="https://gum.co/Uhxit" target="_blank" style="color: #94A1B2;">Subscribe</a>
+    <p class="lead">Get the best Instagram and Tik-Tok influencers for your campaigns</p>
+    <a class="btn btn-outline-light text-light btn-lg" href="https://gum.co/Uhxit" target="_blank" style="color: white;">Subscribe</a>
   </div>
   <div class="container container-dark ">
     <img src="undraw_predictive_analytics_kf9n.svg" class="img-fluid mx-auto d-block" style="padding-bottom: 20px;">
   </div>
  
-  <div class="container-fluid container-brown container-empty-20">
-    <h1>Expose your products to the world</h1>
+</header>
+  <div class="container-fluid container-brown container-empty" id="features">
+    <h1>Expose your products to the world!</h1>
     <div class="container container-empty-30">
       <div class="row">
         <div class="col" >
@@ -85,7 +86,7 @@
         </div>
         <div class="col">
           <h4 class="text-left">2.Get a handcrafted list</h4>
-          <p class="text-left" style="color: #94A1B2;"> Get a list of instagram and tik-tok influencers with all the information you will need </p>
+          <p class="text-left" style="color: #94A1B2;"> Get a list of Instagram and Tik-Tok influencers with all the information you will need </p>
         </div>
         <div class="col">
           <h4 class="text-left">3.Profit your business</h4>
@@ -95,9 +96,40 @@
     </div>
   </div>
 
+  <div class="container-fluid container-brown container-empty" id="pricing">
+    <h1>Price worth paying!</h1>
+    <div class="container container-empty-30" style="max-width: 70%;">
+      <div class="card-deck" >
+        <div class="card" style="background-color:#2C2529 ;">
+          <div class="card-body text-center">
+            <h4 class="card-text">Monthly</h4>
+            <p class="card-text text-left" style="color: #94A1B2;">List of top Instagram and Tik-Tok influencers with all necessary details you will need</p>
+            <h4 class="card-text">$50</h4>
+            <p style="color: #94A1B2;">1 month</p>
+            <a class="btn btn-outline-light text-light btn-lg" href="https://gum.co/Uhxit" target="_blank" style="color: white;">Subscribe</a>
+          </div>
+        </div>
+        <div class="card" style="background-color:#2C2529 ;">
+          <div class="card-body text-center">
+            <h4 class="card-text">Three Months</h4>
+            <p class="card-text text-left" style="color: #94A1B2;">List of top Instagram and Tik-Tok influencers , take time to plan the perfect campaign for your business</p>
+            <h4 class="card-text">$150</h4>
+            <p style="color: #94A1B2;">3 months</p>
+            <a class="btn btn-outline-light text-light btn-lg" href="https://gum.co/Uhxit" target="_blank" style="color: white;">Subscribe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid container-empty  container-brown"></div>
 
+  <div class="container-fluid  container-brown">
+    <div class="footer-copyright py-3" style="color: #94A1B2;">© 2020 Copyright:
+      <a href="#" style="color: #94A1B2;"> TopInfluencers.com</a>
+    </div>
+    </footer>
+  </div>
 
-</header>
 
 </body>
 </html>
