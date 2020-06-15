@@ -11,6 +11,10 @@ body {
 padding-top:80px;
 }
 
+.container-empty-header{
+    padding-top:100px;
+}
+
 
 .container-empty-30{
     padding-top:30px;
