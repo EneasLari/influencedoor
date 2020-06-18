@@ -1,1 +1,2 @@
-# twitchlist
+# Influence door
+https://influencedoor.com
